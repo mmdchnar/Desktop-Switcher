@@ -2,9 +2,11 @@ from pynput import mouse
 from time import sleep
 from pyautogui import hotkey
 
-
-sleep(10)  # to ensure that GPU fully loaded in startup
 DELAY = 0.01
+
+print("Waiting for GPU fully loaded...")
+sleep(10)  # to ensure that GPU fully loaded in startup
+print("Prosees is running...")
 
 
 def move_to_next_desktop():
