@@ -1,2 +1,11 @@
-# Desktop-Switcher
-a simple python script that use forward and backward button of the mouse to switch the desktop in windows
+## Instalation:
+- install requirements:
+```bash
+pip3 install -r requirements.txt
+```
+
+- then you must put the `main.py` file to startup folder:
+```
+C:\Users\{user}\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
+```
+_note: replace {user} with your own user name_
